@@ -12,9 +12,8 @@ header h1{
 }
 
 header{
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 5.5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
 }
 
 .banner{
@@ -23,9 +22,22 @@ header{
 }
 
 .row{
-    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-sm{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 5px 5px 5px;
+    padding: 0.8rem;
+    padding-left: 0.8rem;
 }
 
 i{
     color: #9e1d1d
+}
+
+img{
+    border-radius: 10px;
 }
