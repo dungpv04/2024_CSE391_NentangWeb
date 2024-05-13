@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+}
+
+.section1{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    border-left: 5px solid #58151c;
+    padding-left: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: #58151c;
+    font-family: sans-serif;
+}
+
+.courses{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 0;
+    justify-content: center;
+}
+
+.course img{
+    height: auto;
+    width: 100%;
+}
+
+.course{
+    margin-bottom: 40px;
+    list-style: none;
+    width: 30%;
+    padding: 0 20px;
+}
+
+.course p{
+    font-size: 14px;
+}
+
+.course ul{
+    list-style: none;
+    padding:0;
+}
+
+.course li{
+    color: #58151c;
+    padding-bottom: 5px;
+}
+
+.course span{
+    color: black;
+}
+
+.course h3{
+    text-transform: uppercase;
+}
