@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- below we are including the jQuery 
+		and jQuery plugin .js files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js">
+    </script>
+    <style>
+        body{
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" id="testForm">
+        <label for="user">Username:</label>
+        <input type="text" name="username" id="usernames">
+        <!-- <h5 id="usercheck" style="color: red;">Fill this box</h5> -->
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="passwords">
+        <!-- <h5 id="passcheck" style="color: red;">Fill this box</h5> -->
+        <label for="re_password">Retype password:</label>
+        <input type="text" name="re_password" id="re_passwords">
+        <!-- <h5 id="repasscheck" style="color: red;">Fill this box</h5> -->
+    </form>
+
+    <script>
+        $().ready(function(){
+            $("testForm").validate({
+                rules:{
+                    username
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

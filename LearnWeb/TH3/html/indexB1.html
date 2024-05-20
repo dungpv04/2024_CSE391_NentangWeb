@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Học web chuẩn</title>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+ $(function(){
+ /* Code viết ở đây ↓ */
+    let box = document.getElementById("box");
+    // $('tag:eq(n)')
+    // button.addEventListener('click', changeText);
+    function changeText(e){
+        box.children[0].textContent = "text changed successfully"; 
+        box.children[1].textContent = "text changed successfully"; 
+    }
+    $(function() {
+        $("button").click(changeText);
+    });
+ });
+</script>
+</head>
+<body>
+<div id="box">
+ <h3>Title</h3>
+ <div>In suscipit nec velit sit amet convallis. Integer</div>
+</div>
+<button type="button">Click</button>
+</body>
+</html>
