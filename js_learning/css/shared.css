@@ -1,0 +1,6 @@
+.content-box{
+    height: 16rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
