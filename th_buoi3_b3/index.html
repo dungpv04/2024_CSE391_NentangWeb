@@ -28,7 +28,7 @@
                 $("h3").click(function(){
                     $(".box").hide();
                     if(a != this) a = this;
-                    else if(a === this) $(this).next().show();
+                    else $(this).next().show();
                     $(this).next().fadeToggle();
                     console.log(a);
                 });
